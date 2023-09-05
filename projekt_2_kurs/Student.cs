@@ -13,17 +13,17 @@ using System.Threading.Tasks;
         public int age;
         private readonly string _city;
         public string status;
-        public int Year;
+        public int year;
         public Student(string name, int age, string city, int year)
         {
             Name = name;
             Age = age;
             _city = city;
-            YEar = year;
+        this.year = year;
         }
-        public int YEar
+        public int Year
         {       
-           get { year} 
+           get { return year; } 
         }
         public int Age
         {
